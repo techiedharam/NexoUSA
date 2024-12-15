@@ -75,8 +75,9 @@ const MobileLayout = ({ NexoMenus }) => {
             }
           </ul>
         </motion.div>
-      )}
-    </div>
+      )
+      }
+    </div >
   );
 };
 

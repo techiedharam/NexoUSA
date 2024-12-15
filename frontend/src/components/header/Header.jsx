@@ -1,4 +1,5 @@
 // import React from 'react'
+import { Link } from "react-router-dom";
 import logoOrange from "../../assets/logo-orange.png";
 import NexoMenus from "../../utils/NexoMenus";
 import DesktopLayout from "./DesktopLayout";
@@ -8,7 +9,7 @@ const Header = () => {
     <header className="h-16 text-[15px] fixed inset-0 flex bg-white shadow-md text-black p-4 ">
       <nav className="flex justify-between items-center w-full max-w-7xl mx-auto  font-semibold">
         <div>
-          <img src={logoOrange} alt="logo" width={100} />
+          <Link to="/"> <img src={logoOrange} alt="logo" width={100} /></Link>
         </div>
 
         <ul className="lg:flex hidden gap-x-1">
@@ -19,7 +20,12 @@ const Header = () => {
           }
         </ul>
         <div className="flex justify-center gap-2">
-          <button className="bg-[#ff9c00] text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-[#e68900] transition duration-300">Call to Action</button>
+          <a href="tel:+1234567890">
+            <button className="bg-[#ff9c00] text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-[#e68900] transition duration-300">
+              Call to Action
+            </button>
+            {/* <button className="bg-[#ff9c00] text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-[#e68900] transition duration-300">Call to Action</button> */}
+          </a>
           <div className="lg:hidden">
             <MobileLayout NexoMenus={NexoMenus} />
           </div>
