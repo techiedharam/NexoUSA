@@ -1,8 +1,8 @@
 const Home = () => {
   return (
-    <div>
+    <div className="w-full h-full">
       {/* Your Home content goes here */}
-      <h1>Welcome to Home Page</h1>
+      <h1 className="text-center"> Home</h1>
     </div>
   );
 };
