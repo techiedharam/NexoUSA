@@ -52,11 +52,11 @@ const DesktopLayout = ({ menus }) => {
               variants={subMenuVarients}
             >
               {
-                menus?.subMenu?.map((submenu, i) => (
+                menus?.subMenu?.map(({ name, url }, i) => (
                   <div key={i} className="group/menubox relative cursor-pointer">
                     <div className=" w-fit p-2 rounded-md group-hover/menubox:bg-[#ff9c00] group-hover/menubox:text-[#fff] duration-300">
-                      <Link to={submenu.url}>
-                        {submenu.name}
+                      <Link to={url}>
+                        {name}
                       </Link>
                     </div>
                   </div>

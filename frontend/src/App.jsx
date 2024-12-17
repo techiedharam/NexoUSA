@@ -1,4 +1,4 @@
-import AllRouter from './AllRouter/AllRouter'
+import AllRouter from './router/AllRouter'
 import Header from './components/header/Header'
 import './App.css'
 import Footer from './components/footer/Footer'
