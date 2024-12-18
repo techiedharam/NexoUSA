@@ -26,7 +26,7 @@ const FastnersLinks = () => {
   ];
 
   return (
-    <div className="px-40 py-6">
+    <div className="px-6 py-6">
       <ul className="grid gap-1 text-sm sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {fastenerProducts?.map((items, i) => (
           <li key={i} className="py-2">
