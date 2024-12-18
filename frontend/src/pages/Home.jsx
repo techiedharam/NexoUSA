@@ -2,6 +2,8 @@
 
 // import SliderGPT from "../components/carousel/SliderGPT";
 
+import FabricationComponent from "../components/home/FabricationComponent";
+import FastenerComponent from "../components/home/FastenerComponent";
 import SwiperComponent from "../components/home/SwiperComponent";
 import WelcomeSection from "../components/home/WelcomeSection";
 
@@ -14,6 +16,8 @@ const Home = () => {
         {/* <SliderGPT /> */}
         <SwiperComponent />
         <WelcomeSection />
+        <FastenerComponent />
+        <FabricationComponent />
       </div>
     </>
   );
