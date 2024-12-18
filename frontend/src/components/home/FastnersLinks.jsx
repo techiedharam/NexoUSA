@@ -1,5 +1,3 @@
-// import React from 'react'
-
 const FastnersLinks = () => {
   const fastenerProducts = [
     { name: "Fasteners Manufacturers in India" },
@@ -28,17 +26,16 @@ const FastnersLinks = () => {
   ];
 
   return (
-    <div>
-      <ul className="grid grid-cols-3 gap-2 py-10 px-52 text-sm">
-        {
-          fastenerProducts?.map((items, i) => (
-            <li key={i} className="">{items.name}</li>
-          ))
-        }
+    <div className="px-40 py-6">
+      <ul className="grid gap-1 text-sm sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {fastenerProducts?.map((items, i) => (
+          <li key={i} className="py-2">
+            {items.name}
+          </li>
+        ))}
       </ul>
-
     </div>
-  )
-}
+  );
+};
 
-export default FastnersLinks
+export default FastnersLinks;
