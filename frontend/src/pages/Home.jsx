@@ -1,6 +1,9 @@
-import SwiperComponent from "../components/carousel/SwiperComponent";
+
 
 // import SliderGPT from "../components/carousel/SliderGPT";
+
+import SwiperComponent from "../components/home/SwiperComponent";
+import WelcomeSection from "../components/home/WelcomeSection";
 
 
 const Home = () => {
@@ -10,6 +13,7 @@ const Home = () => {
       <div>
         {/* <SliderGPT /> */}
         <SwiperComponent />
+        <WelcomeSection />
       </div>
     </>
   );
