@@ -2,11 +2,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Parallax, Autoplay, Pagination, Navigation } from "swiper/modules";
 
 // bg images
+// bg images
 import slide1 from "./img/slide1.jpg";
 import slide2 from "./img/slide2.jpg";
 import slide3 from "./img/slide3.jpg";
 import slide4 from "./img/slide4.jpg";
-// import slide5 from "./img/slide5.jpg";
 
 export const Slider = () => {
   return (
@@ -14,10 +14,10 @@ export const Slider = () => {
       speed={800}
       parallax={true}
       loop={true} // Enable loop
-      autoplay={{
-        delay: 3000, // Optional: Auto-slide every 3 seconds
-        disableOnInteraction: false,
-      }}
+      // autoplay={{
+      //     delay: 3000, // Optional: Auto-slide every 3 seconds
+      //     disableOnInteraction: false,
+      // }}
       pagination={{ clickable: true }}
       navigation={true}
       modules={[Parallax, Autoplay, Pagination, Navigation]}
