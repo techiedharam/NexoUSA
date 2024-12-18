@@ -2,22 +2,26 @@
 
 // import SliderGPT from "../components/carousel/SliderGPT";
 
+import Description from "../components/home/Description";
 import FabricationComponent from "../components/home/FabricationComponent";
 import FastenerComponent from "../components/home/FastenerComponent";
-import SwiperComponent from "../components/home/SwiperComponent";
+import { Slider } from "../components/home/Slider";
+// import SwiperComponent from "../components/home/SwiperComponent";
 import WelcomeSection from "../components/home/WelcomeSection";
 
+// Slider Component 
 
 const Home = () => {
   return (
     <>
       {/* <h1 className="p-10 text-center">This is Home Page </h1> */}
       <div>
-        {/* <SliderGPT /> */}
-        <SwiperComponent />
+        <Slider />
+        {/* <SwiperComponent /> */}
         <WelcomeSection />
         <FastenerComponent />
         <FabricationComponent />
+        <Description />
       </div>
     </>
   );
