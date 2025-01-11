@@ -6,6 +6,9 @@
 
 
 /* Custom Styles */
+html {
+  scroll-behavior: smooth
+}
 
 body {
   @apply font-inter;

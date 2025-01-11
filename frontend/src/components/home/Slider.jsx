@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Parallax, Autoplay, Pagination, Navigation } from "swiper/modules";
+import { motion } from "framer-motion";
 
 // bg images
 import slide1 from "../../assets/img/slide1.jpg";
@@ -32,20 +33,36 @@ const Slider = () => {
     >
       {/* Slide 1 */}
       <SwiperSlide>
-        <div
-          className="relative h-[200px] md:h-[500px] w-full bg-cover bg-center"
+        <motion.div
+          className="relative h-[200px] md:h-[550px] w-full bg-cover bg-center"
           style={{ backgroundImage: `url(${slide1})` }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
         >
           <div className="absolute inset-0 bg-black opacity-75"></div>
           <div className="relative z-10 flex justify-between h-full items-center md:px-8">
-            <div className="w-[45%] md:w-[50%] flex justify-center items-center mt-20">
+            {/* Animated Image */}
+            <motion.div
+              className="w-[45%] md:w-[50%] flex justify-center items-center mt-20"
+              initial={{ x: -200, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1, type: "spring", stiffness: 50 }}
+            >
               <img
                 src="https://www.nexoindia.com/wp-content/uploads/2017/09/wind-mill.png"
                 alt="Wind Mill"
                 className="max-w-full h-auto"
               />
-            </div>
-            <div className="w-[55%] md:w-[50%] flex flex-col items-end justify-end text-right text-yellow-500 font-bold pt-20 md:pt-40 pr-1">
+            </motion.div>
+
+            {/* Animated Text */}
+            <motion.div
+              className="w-[55%] md:w-[50%] flex flex-col items-end justify-end text-right text-yellow-500 font-bold pt-20 md:pt-40 pr-1"
+              initial={{ opacity: 0, y: 100 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.3 }}
+            >
               <p className="text-[8px] md:text-lg">
                 NEXO FASTENERS IS BEST FOR YOUR INDUSTRIES.
               </p>
@@ -55,44 +72,65 @@ const Slider = () => {
               <button className="text-[8px] md:text-md mt-2 md:mt-4 px-1 py-1 md:px-6 md:py-3 bg-orange-500 text-white font-semibold rounded hover:bg-orange-600 transition">
                 MORE INFO
               </button>
-            </div>
+            </motion.div>
           </div>
-        </div>
+        </motion.div>
       </SwiperSlide>
 
       {/* Slide 2 */}
       <SwiperSlide>
-        <div
-          className="relative h-[200px] md:h-[500px] w-full bg-cover bg-center"
+        <motion.div
+          className="relative h-[200px] md:h-[550px] w-full bg-cover bg-center"
           style={{ backgroundImage: `url(${slide2})` }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
         >
           <div className="absolute inset-0 bg-black opacity-75"></div>
           <div className="relative z-10 flex justify-between h-full items-center md:px-8">
-            <div className="w-[45%] md:w-[50%] flex justify-center items-center mt-20 p-5">
+            {/* Animated Image */}
+            <motion.div
+              className="w-[45%] md:w-[50%] flex justify-center items-center mt-20 p-5"
+              initial={{ x: 200, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1, type: "spring", stiffness: 50 }}
+            >
               <img
                 src="https://www.nexoindia.com/wp-content/uploads/2017/09/transmission-line.png"
                 alt="Transmission Line"
                 className="max-w-full md:h-[400px]"
               />
-            </div>
-            <div className="w-[55%] md:w-[50%] flex flex-col items-end justify-end text-right text-yellow-500 font-bold pt-20 md:pt-40 pr-1">
-              <h3 className="text-[12px] md:text-4xl mt-2">FOR TRANSMISSION LINES</h3>
+            </motion.div>
+
+            {/* Animated Text */}
+            <motion.div
+              className="w-[55%] md:w-[50%] flex flex-col items-end justify-end text-right text-yellow-500 font-bold pt-20 md:pt-40 pr-1"
+              initial={{ opacity: 0, y: 100 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.3 }}
+            >
+              <h3 className="text-[12px] md:text-4xl mt-2">
+                FOR TRANSMISSION LINES
+              </h3>
               <p className="text-[8px] md:text-lg">
                 POWER TRANSMISSION SECTOR, TELE-COMMUNICATION SECTOR
               </p>
               <button className="text-[8px] md:text-md mt-2 md:mt-4 px-1 py-1 md:px-6 md:py-3 bg-orange-500 text-white font-semibold rounded hover:bg-orange-600 transition">
                 MORE INFO
               </button>
-            </div>
+            </motion.div>
           </div>
-        </div>
+        </motion.div>
       </SwiperSlide>
 
       {/* Slide 3 */}
       <SwiperSlide>
-        <div
-          className="relative h-[200px] md:h-[500px] w-full bg-cover bg-center"
+        <motion.div
+          className="relative h-[200px] md:h-[550px] w-full bg-cover bg-center"
           style={{ backgroundImage: `url(${slide3})` }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
         >
           <div className="absolute inset-0 bg-black opacity-75"></div>
           <div className="relative z-10 flex justify-between h-full items-center md:px-8">
@@ -113,14 +151,17 @@ const Slider = () => {
               />
             </div>
           </div>
-        </div>
+        </motion.div>
       </SwiperSlide>
 
       {/* Slide 4 */}
       <SwiperSlide>
-        <div
-          className="relative h-[200px] md:h-[500px] w-full bg-cover bg-center"
+        <motion.div
+          className="relative h-[200px] md:h-[550px] w-full bg-cover bg-center"
           style={{ backgroundImage: `url(${slide4})` }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
         >
           <div className="absolute inset-0 bg-black opacity-75"></div>
           <div className="relative z-10 flex flex-col justify-center h-full items-center text-center text-yellow-500 font-bold">
@@ -132,14 +173,17 @@ const Slider = () => {
               MORE INFO
             </button>
           </div>
-        </div>
+        </motion.div>
       </SwiperSlide>
 
       {/* Slide 5 */}
       <SwiperSlide>
-        <div
-          className="relative h-[200px] md:h-[500px] w-full bg-cover bg-center"
+        <motion.div
+          className="relative h-[200px] md:h-[550px] w-full bg-cover bg-center"
           style={{ backgroundImage: `url(${slide5})` }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
         >
           <div className="absolute inset-0 bg-black opacity-75"></div>
           <div className="relative z-10 flex flex-col justify-center h-full items-center text-center text-yellow-500 font-bold">
@@ -151,7 +195,7 @@ const Slider = () => {
               MORE INFO
             </button>
           </div>
-        </div>
+        </motion.div>
       </SwiperSlide>
     </Swiper>
   );
