@@ -125,7 +125,7 @@ export default function App() {
                   {slide.description}
                 </p>
                 <button
-                  className={`py-2 px-4 rounded text-sm transform transition-transform duration-500 hover:scale-105 text-black font-bold ${slide.buttonColor}`}
+                  className={`py-2 px-0 rounded w-[200px] text-sm transform transition-transform duration-500 hover:scale-105 text-black font-bold ${slide.buttonColor}`}
                   data-swiper-parallax="-100"
                 >
                   {slide.buttonText}
