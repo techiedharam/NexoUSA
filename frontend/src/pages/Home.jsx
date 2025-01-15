@@ -5,7 +5,8 @@ import FastnersLinks from "../components/home/FastnersLinks";
 import WelcomeSection from "../components/home/WelcomeSection";
 
 // Slider Component
-import Slider from "../components/home/Slider";
+import Slider from "../components/carousel/Slider";
+
 
 const Home = () => {
   return (

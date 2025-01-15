@@ -1,6 +1,6 @@
 // import React from 'react'
 import { Link } from "react-router-dom";
-import logoOrange from "../../assets/logo-orange.png";
+import logoOrange from "../../assets/img/logo-orange.png";
 import NexoMenus from "../../utils/NexoMenus";
 import DesktopLayout from "./DesktopLayout";
 import MobileLayout from "./MobileLayout";
