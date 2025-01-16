@@ -1,11 +1,22 @@
 // import React from 'react'
 import { MapPinMinusInside, Phone, Mail } from "lucide-react"
 import LinkContainer from "./LinkContainer"
+
+import footerBackground from "../../assets/img/footerBackground.jpg"
+
 const Footer = () => {
   return (
-    <footer className=" w-full bg-black lg:px-32 px-4 py-10">
+    <footer className="w-full bg-black lg:px-32 px-4 py-10"
+      style={{
+        backgroundImage: `url(${footerBackground})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        filter: "brightness(0.6)"
+      }}
+    >
       {/* Main container of footer */}
-      <div className=" grid lg:grid-cols-3 grid-cols-1 gap-5 text-white" >
+      <div className=" grid lg:grid-cols-3 grid-cols-1 gap-5 text-white">
         <div>
           <h1 className=" text-2xl text-[#ff9c00] font-semibold ">ABOUS US</h1>
           <p className="mt-4 text-white/60">Nexo is an EN 15048 & CE Certified company leading manufacturer of high
@@ -45,7 +56,7 @@ const Footer = () => {
       <hr className="mt-6" />
       <LinkContainer />
       <div className="text-white/60 mt-6 text-center text-sm ">
-        <p>© 2024 – NEXO USA Powered By : <span className="text-white"> Aseem Chaudhry </span></p>
+        <p>© 2025 – NEXO USA Powered By : <span className="text-white"> Aseem Chaudhry </span></p>
       </div>
     </footer >
   )

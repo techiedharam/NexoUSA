@@ -1,6 +1,6 @@
 const Description = () => {
   return (
-    <div className="lg:px-52 md:px-12 py-8 bg-gray-100 rounded-sm shadow-sm text-black">
+    <div className="lg:px-52 md:px-12 px-4 py-8 bg-gray-100 rounded-sm shadow-sm text-black">
       <p className="text-sm md:text-l text-black leading-relaxed mb-4">
         Fasteners are a core component of several key industries – Electricity, Telecommunication, Roadways and Railways, and Nexo is a top manufacturer of high quality and durable fasteners. Nexo is not only a major manufacturer and supplier of fasteners in Punjab and other parts of India, but the company’s top-of-the-range products are also exported abroad.
       </p>
