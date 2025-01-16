@@ -111,6 +111,18 @@ const AboutUs = () => {
         BS: ["–"],
         AS: ["–"]
       }
+    },
+    {
+      srNo: 10,
+      item: "HIGH STRENGTH STRUCTURAL NUT (HEAVY SERIES)",
+      standards: {
+        IS: ["6623", "6915"],
+        DIN: ["7414"],
+        ISO: ["A-563M"],
+        ASTM: ["4395"],
+        BS: ["1252"],
+        AS: ["–"]
+      }
     }
   ];
 
