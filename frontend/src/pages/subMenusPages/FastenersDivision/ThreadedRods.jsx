@@ -15,7 +15,7 @@ const ThreadedRods = () => {
       </div>
 
       <h1 className="text-center text-xl md:text-2xl font-bold mt-5">
-        Threaded Rods Manufacturers India, Threaded Rod Manufacturers in Ludhiana
+        <span className="underline">Threaded Rods Manufacturers India</span> Threaded Rod Manufacturers in Ludhiana
       </h1>
 
       <div className="flex flex-col md:flex-row  mt-6 md:py-10 py-4 md:px-20 px-4"> {/* Content Container */}
