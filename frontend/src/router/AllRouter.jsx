@@ -36,6 +36,9 @@ import FarmAgricultureGates from "../pages/subMenusPages/FabricationDivision/Far
 import OtherFarmAgricultureProducts from "../pages/subMenusPages/FabricationDivision/OtherFarmAgricultureProducts"
 import MountingAccessories from "../pages/subMenusPages/FabricationDivision/MountingAccessories"
 import StrutsChannelsAndBrackets from "../pages/subMenusPages/FabricationDivision/StrutsChannelsAndBrackets"
+// Contact Us Pages - 3
+import InquiryForm from '../pages/subMenusPages/contactUs/InquiryForm';
+import JobSearch from '../pages/subMenusPages/contactUs/JobSearch';
 
 
 
@@ -75,7 +78,9 @@ const AllRouter = () => {
       <Route path="/fabrication-division/other-farm-agriculture-products" element={<OtherFarmAgricultureProducts />} />
       <Route path="/fabrication-division/mounting-accessories" element={<MountingAccessories />} />
       <Route path="/fabrication-division/struts-channels-and-brackets" element={<StrutsChannelsAndBrackets />} />
-
+      {/* Contact US route  */}
+      <Route path="/contact-u/inquiry-form" element={<InquiryForm />} />
+      <Route path="/contact-u/job-search" element={<JobSearch />} />
     </Routes>
   );
 };

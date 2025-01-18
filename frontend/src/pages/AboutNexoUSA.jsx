@@ -4,7 +4,7 @@ import fastenersImg from "../assets/aboutNexoImg/Fasteners-Manufacturers-In-Indi
 const AboutNexoUSA = () => {
   return (
     <div> {/* Main Container*/}
-      <div> {/* top image  */}
+      <div> {/* banner image  */}
         <img src={fastenersCoverImg} alt="" className=" w-full h-[250px] bg-no-repeat bg-full bg-center bg-fixed" />
         <h1 className="py-2 px-20 bg-[#ff9c00] text-2xl font-bold text-white">ABOUT NEXO</h1>
       </div>

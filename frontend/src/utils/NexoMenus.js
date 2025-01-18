@@ -116,7 +116,21 @@ const NexoMenus = [
   },
   {
     name: "Contact Us",
-    url: "/contact-us"
+    url: "/contact-us",
+    subMenu: [
+      {
+        name: "Contact Nexo",
+        url: "/contact-us"
+      },
+      {
+        name: "Inquiry Form",
+        url: "/contact-u/inquiry-form"
+      },
+      {
+        name: "Job Search",
+        url: "/contact-u/job-search"
+      },
+    ]
   },
 ];
 
