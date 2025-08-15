@@ -28,7 +28,21 @@ const NexoMenus = [
   },
   {
     name: "Product Range",
-    url: "/product-range"
+    url: "/product-range",
+    subMenu: [
+      {
+        name: "Fasteners Division",
+        url: "/product-range/fasteners-division"
+      },
+      {
+        name: "Fasteners Division",
+        url: "/product-range/fasteners-division"
+      },
+      {
+        name: "Fasteners Division",
+        url: "/product-range/fasteners-division"
+      },
+    ]
   },
   {
     name: "Fasteners Division",
