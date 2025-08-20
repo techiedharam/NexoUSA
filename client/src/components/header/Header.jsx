@@ -24,7 +24,7 @@ const Header = () => {
         <div className="flex justify-center gap-2">
           <a href="tel:+1234567890">
             <button className="bg-[#ff9c00] text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-[#e68900] transition duration-300">
-              Call Now
+              Contact Us
             </button>
             {/* <button className="bg-[#ff9c00] text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-[#e68900] transition duration-300">Call to Action</button> */}
           </a>

@@ -4,28 +4,31 @@ import Image from "next/image";
 
 const FabricationComponent = () => {
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-center items-center w-full bg-[#ff9c00]">
+    <div className="flex flex-col lg:flex-row items-center w-full bg-[#ff9c00]">
       {/* Content Part */}
-      <div className="lg:w-1/2 text-left space-y-6 px-8 lg:px-20">
-        <h1 className="text-4xl font-bold text-gray-900">FABRICATION DIVISION</h1>
-        <p className="text-xl font-medium text-gray-700">PRODUCTS RANGE</p>
-        <ul className="list-disc list-inside space-y-3 text-gray-600 text-lg">
-          <li>Tele Communication Tower</li>
-          <li>Brackets</li>
-          <li>Gates</li>
-          <li>Agriculture Products</li>
-          <li>Farm Part Division</li>
+      <div className="lg:w-1/2 flex flex-col justify-center text-left space-y-4 px-8 py-12">
+        <h1 className="text-3xl font-bold text-black uppercase">
+          FABRICATION DIVISION
+        </h1>
+        <p className="text-lg font-semibold text-black/80">PRODUCTS RANGE</p>
+        <div className="w-12 h-[2px] bg-black/40 mb-2"></div>
+        <ul className="list-disc list-inside space-y-2 text-blue-900 font-semibold">
+          <li>TELE COMMUNICATION TOWER</li>
+          <li>BRACKETS</li>
+          <li>GATES</li>
+          <li>AGRICULTURE PRODUCTS</li>
+          <li>FARM PART DIVISION</li>
         </ul>
       </div>
 
       {/* Image Part */}
-      <div className="lg:w-1/2 w-full lg:ml-0 flex-shrink-0">
+      <div className="lg:w-1/2 w-full">
         <Image
-          src="/img/FABRICATION.png" // place inside public/img/
-          alt="Fabrication"
-          width={600} // adjust according to your design
+          src="/assets/img/FABRICATION-BG.png"
+          alt="Fabrication Division"
+          width={600}
           height={400}
-          className="w-full h-auto"
+          className="w-full h-auto object-cover"
         />
       </div>
     </div>

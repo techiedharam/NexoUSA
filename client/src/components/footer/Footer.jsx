@@ -3,7 +3,7 @@ import { MapPinMinusInside, Phone, Mail } from "lucide-react"
 import LinkContainer from "./LinkContainer"
 
 const Footer = () => {
-  return (
+  return (    
     <footer className="relative w-full lg:px-32 px-4 py-12 text-gray-200 overflow-hidden">
       {/* Background */}
       <div

@@ -30,19 +30,16 @@ const FastnersLinks = () => {
   ];
 
   return (
-    <div className="px-6 py-6">
-      <ul className="grid gap-2 text-sm sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {fastenerProducts.map((item, i) => (
-          <li key={i} className="py-1">
-            <Link 
-              href={item.url} 
-              className="text-gray-700 hover:text-blue-700 hover:underline transition-colors"
-            >
-              {item.name}
-            </Link>
-          </li>
-        ))}
-      </ul>
+    <div className="px-4 md:px-8 lg:px-16 py-10 bg-gray-200">
+      <div className="max-w-7xl mx-auto">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-3 gap-x-8 list-disc list-inside text-blue-700 text-sm md:text-base">
+          {fastenerProducts.map((item, i) => (
+            <li key={i} className="hover:text-blue-900 transition-colors leading-relaxed">
+              <Link href={item.url}>{item.name}</Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
