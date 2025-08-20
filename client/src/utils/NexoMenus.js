@@ -22,7 +22,7 @@ const NexoMenus = [
       },
       {
         name: "Quality",
-        url: "/about-nexo-usa/quality"
+        url: "/quality"
       },
     ]
   },
@@ -32,7 +32,7 @@ const NexoMenus = [
     subMenu: [
       {
         name: "Fasteners Division",
-        url: "/product-range/fasteners-division"
+        url: "/fasteners-division"
       },
     ]
   },
@@ -42,43 +42,43 @@ const NexoMenus = [
     subMenu: [
       {
         name: "Threaded Rods",
-        url: "/fasteners-division/threaded-rods"
+        url: "/threaded-rods"
       },
       {
         name: "Infrastructure for Fabrication Division",
-        url: "/fasteners-division/infrastructure-for-fabrication-division"
+        url: "/infrastructure-for-fabrication-division"
       },
       {
         name: "Structures",
-        url: "/fasteners-division/structures"
+        url: "/structures"
       },
       {
         name: "Foundations",
-        url: "/fasteners-division/foundations"
+        url: "/foundations"
       },
       {
         name: "Wind Mill and Refinery",
-        url: "/fasteners-division/wind-mill-and-refinery"
+        url: "/wind-mill-and-refinery"
       },
       {
         name: "Transmission Line",
-        url: "/fasteners-division/transmission-line"
+        url: "/transmission-line"
       },
       {
         name: "Railways Electrical",
-        url: "/fasteners-division/railways-electrical"
+        url: "/railways-electrical"
       },
       {
         name: "Steel/Wooden Crash Barrier",
-        url: "/fasteners-division/steel-wooden-crash-barrier"
+        url: "/steel-wooden-crash-barrier"
       },
       {
         name: "General Uses",
-        url: "/fasteners-division/general-uses"
+        url: "/general-uses"
       },
       {
         name: "Infrastructure for Fasteners Division",
-        url: "/fasteners-division/infrastructure-for-fasteners-division"
+        url: "/infrastructure-for-fasteners-division"
       },
     ]
   },
@@ -88,31 +88,31 @@ const NexoMenus = [
     subMenu: [
       {
         name: "Farm Part Division",
-        url: "/fabrication-division/farm-part-division"
+        url: "/farm-part-division"
       },
       {
         name: "Crowd Control Barriers & Temporary Fencing",
-        url: "/fabrication-division/crowd-control-barriers-and-temporary-fencing"
+        url: "/crowd-control-barriers-and-temporary-fencing"
       },
       {
         name: "Post Support Brackets & Outers",
-        url: "/fabrication-division/post-support-brackets-and-outers"
+        url: "/post-support-brackets-and-outers"
       },
       {
         name: "Farm Agriculture Gates",
-        url: "/fabrication-division/farm-agriculture-gates"
+        url: "/farm-agriculture-gates"
       },
       {
         name: "Other Farm/Agriculture Products",
-        url: "/fabrication-division/other-farm-agriculture-products"
+        url: "/other-farm-agriculture-products"
       },
       {
         name: "Mounting Accessories",
-        url: "/fabrication-division/mounting-accessories"
+        url: "/mounting-accessories"
       },
       {
         name: "Struts Channels and Brackets",
-        url: "/fabrication-division/struts-channels-and-brackets"
+        url: "/struts-channels-and-brackets"
       },
     ]
   },
@@ -130,11 +130,11 @@ const NexoMenus = [
       },
       {
         name: "Inquiry Form",
-        url: "/contact-u/inquiry-form"
+        url: "/inquiry-form"
       },
       {
         name: "Job Search",
-        url: "/contact-u/job-search"
+        url: "/job-search"
       },
     ]
   },
