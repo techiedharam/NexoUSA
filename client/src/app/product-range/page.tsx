@@ -37,7 +37,7 @@ const ProductRange = () => {
       <h1 className="text-center md:text-3xl font-bold p-5">Threaded Rods Producers India, Threaded Rods Products Manufacturers</h1>
       <div className="w-[70%] m-auto mt-5"> {/* Range of Commercial & Precision Fasteners Table Container*/}
         <p className="md:text-2xl font-bold py-4">Range of Commercial & Precision Fasteners</p>
-        <table border="1" style={{ width: '100%', textAlign: 'center', borderCollapse: 'collapse' }}>
+        <table style={{ width: '100%', textAlign: 'center', borderCollapse: 'collapse' }}>
           <thead style={{ backgroundColor: '#ff9c00', color: 'white' }}>
             <tr>
               <th>Diameter</th>
