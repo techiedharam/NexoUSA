@@ -1,12 +1,14 @@
 import React from "react";
-
+import Image from "next/image";
 const Quality = () => {
   return (
     <div>
       {/* Banner Section */}
       <div>
-        <img
+        <Image
           src="/assets/aboutNexoImg/QualityPolicy.jpg"
+          width={1920}
+          height={250}
           alt="bannerImg"
           className="w-full h-[200px] md:h-[250px] lg:h-[300px] object-cover"
         />
@@ -42,9 +44,11 @@ const Quality = () => {
 
         {/* Right Image */}
         <div className="mt-6 md:mt-0 md:w-1/2 flex justify-center">
-          <img
+          <Image
             src="/assets/aboutNexoImg/GalvanizedFastenersManufacturers.jpg"
             alt="Galvanized Fasteners"
+            width={500}
+            height={250}
             className="w-full md:w-[300px] h-auto rounded-md"
           />
         </div>

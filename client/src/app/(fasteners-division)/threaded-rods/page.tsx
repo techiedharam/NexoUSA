@@ -1,10 +1,13 @@
-const ThreadedRods = () => {
+import Image from "next/image"
+const FastenersDivision = () => {
   return (
     <div> {/* Main Container */}
       <div> {/* Banner image */}
-        <img
-          src="assets/img/ThreadedRodsCoverImg.jpg"
+        <Image
+          src="/assets/img/ThreadedRodsCoverImg.jpg"
           alt="Threaded Rods Cover"
+          width={1920}
+          height={250}
           className="w-full h-[250px] object-cover bg-center bg-fixed"
         />
         <h1 className="py-2 px-5 md:px-20 bg-[#ff9c00] text-2xl font-bold text-white">Threaded Rods</h1>
@@ -22,9 +25,10 @@ const ThreadedRods = () => {
         </div>
 
         <div className="md:w-1/2 mt-4 md:mt-0"> {/* Right content */}
-          <img
-            src="assets/img/ThreadedRodsManufacturersIndia.jpg"
+          <Image
+            src="/assets/img/ThreadedRodsManufacturersIndia.jpg"
             alt="Threaded Rods Manufacturer"
+            width={500} height={250}
             className="w-[80%] object-cover rounded-lg"
           />
         </div>
@@ -33,4 +37,4 @@ const ThreadedRods = () => {
   )
 }
 
-export default ThreadedRods
+export default FastenersDivision

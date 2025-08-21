@@ -1,10 +1,13 @@
+import Image from "next/image";
 const Warehouse = () => {
   return (
     <div> {/* Main container */}
       <div> {/* banner image */}
-        <img
+        <Image
           src="/assets/img/warehosueCoverImg.jpg"
           alt=""
+          width={1920}
+          height={250}
           className="w-full h-[250px] bg-no-repeat bg-full bg-center bg-fixed"
         />
         <h1 className="py-2 px-4 sm:px-20 bg-[#ff9c00] text-2xl font-bold text-white">Warehouse</h1>
@@ -20,7 +23,7 @@ const Warehouse = () => {
 
         </div>
         <div className="flex justify-center items-center mt-5">  {/* right content container */}
-          <img src="/assets/img/warehouseImg.jpg" alt="" className="w-full md:w-3/4" />
+          <Image src="/assets/img/warehouseImg.jpg" alt="" width={500} height={250} className="w-full md:w-3/4" />
         </div>
         <ul className="list-disc md:pl-20 pl-10 space-y-2 text-sm text-gray-600 " >
           <h3 className="text-xl font-semibold text-gray-700">OUR PRODUCTS:</h3>
@@ -50,7 +53,7 @@ const Warehouse = () => {
           </ul>
         </div>
         <div className="flex justify-center items-center">  {/* right content container */}
-          <img src="/assets/img/warehousePlant.png" alt="" className="w-full md:w-3/4" />
+          <Image src="/assets/img/warehousePlant.png" alt="" width={500} height={250} className="w-full md:w-3/4" />
         </div>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 const ProductRange = () => {
   const fastenersData = [
     { diameter: 'M04', coldForged: '6 to 40', hotForged: '—-' },
@@ -31,7 +32,10 @@ const ProductRange = () => {
     // Main Containier
     <div>
       <div> {/* banner image  */}
-        <img src="assets/img/productRanegBanner.jpg" alt="" className=" w-full h-[250px] bg-no-repeat bg-full bg-center bg-fixed" />
+        <Image src="/assets/img/productRanegBanner.jpg" alt=""
+         width={1920}
+          height={250}  
+          className=" w-full h-[250px] bg-no-repeat bg-full bg-center bg-fixed" />
         <h1 className="py-2 px-20 bg-[#ff9c00] text-2xl font-bold text-white">PRODUCT RANGE</h1>
       </div>
       <h1 className="text-center md:text-3xl font-bold p-5">Threaded Rods Producers India, Threaded Rods Products Manufacturers</h1>
@@ -159,7 +163,7 @@ const ProductRange = () => {
               <li>Mild Steel</li>
               <li>High Tensile</li>
             </ul>
-            <img src="assets/img/Threaded-Rods-Producers-India.jpg" alt="" />
+            <Image src="/assets/img/Threaded-Rods-Producers-India.jpg" width={500} height={250}  alt="" />
           </div>
         </div>
         {/* NEXO STANDARD SPECIFICATION TABLE */}
