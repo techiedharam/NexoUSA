@@ -67,11 +67,11 @@ const DesktopLayout = ({ menus }) => {
             variants={subMenuVariants}>
            {menus?.subMenu?.map(({ name, url }, i) => (
                <div key={i} className="group/menubox relative cursor-pointer">
+                  <Link href={url} onClick={handleSubMenuClick} className="block w-full text-[16px]">
                   <div className="px-4 py-3 hover:bg-[#ff9c00] hover:text-white transition-colors duration-300 rounded-md mx-2">
-                   <Link href={url} onClick={handleSubMenuClick} className="block w-full text-[16px]">
                      {name}
-                   </Link>
                  </div>
+                </Link>
                </div>
              ))}
           </motion.div>

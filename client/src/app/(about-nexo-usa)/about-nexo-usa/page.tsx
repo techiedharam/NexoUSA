@@ -15,7 +15,7 @@ const tableData = [
   { sr: 13, item: "HOT DIP GALVANISING", is: "1367", din: "267", iso: "1461", astm: "A-153M", bs: "729", as: "–" },
 ];
 
-const AboutUs = () => {
+const AboutNexoUsa = () => {
   return (
     <div className="pb-10"> {/* Added bottom padding */}
       {/* Banner Section */}
@@ -118,4 +118,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default AboutNexoUsa;
