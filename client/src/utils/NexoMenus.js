@@ -29,12 +29,6 @@ const NexoMenus = [
   {
     name: "Product Range",
     url: "/product-range",
-    subMenu: [
-      {
-        name: "Fasteners Division",
-        url: "/fasteners-division"
-      },
-    ]
   },
   {
     name: "Fasteners Division",
