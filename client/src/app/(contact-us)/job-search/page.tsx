@@ -2,7 +2,9 @@ import React from 'react'
 
 const JobSearch = () => {
   return (
-    <div>JobSearch</div>
+    <div className='mt-10'>
+      JobSearch
+      </div>
   )
 }
 

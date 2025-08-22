@@ -1,10 +1,10 @@
 import Image from "next/image"
 const FastenersDivision = () => {
   return (
-    <div> {/* Main Container */}
+    <div className="mt-10"> {/* Main Container */}
       <div> {/* Banner image */}
         <Image
-          src="/assets/img/ThreadedRodsCoverImg.jpg"
+          src="/images/banners/ThreadedRodsCoverImg.jpg"
           alt="Threaded Rods Cover"
           width={1920}
           height={250}

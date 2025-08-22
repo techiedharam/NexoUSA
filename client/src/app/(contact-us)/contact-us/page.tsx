@@ -3,16 +3,15 @@ import { Smartphone, Phone, Globe, Mail } from "lucide-react";
 
 export default function ContactUs() {
   return (
-    <div>
+    <div className="mt-10">
       {/* Banner Section */}
       <div>
         <Image
-          src="/assets/img/contactBanner.jpg"
+          src="/images/banners/contactBanner.jpg"
           alt="Contact Banner"
           width={1920}
           height={250}
           className="w-full h-[250px] object-cover"
-          priority
         />
         <h1 className="py-2 px-4 sm:px-20 bg-[#ff9c00] text-2xl font-bold text-white">
           Contact Nexo USA

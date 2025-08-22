@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const ApprovalAndCertifications = () => {
   return (
-    <div className="flex flex-col space-y-10">
+    <div className="flex flex-col space-y-10 mt-10">
       {/* Banner Section */}
       <div>
         <Image

@@ -30,9 +30,9 @@ const ProductRange = () => {
   ];
   return (
     // Main Containier
-    <div>
+    <div className="mt-10">
       <div> {/* banner image  */}
-        <Image src="/assets/img/productRanegBanner.jpg" alt=""
+        <Image src="/images/banners/productRanegBanner.jpg" alt=""
          width={1920}
           height={250}  
           className=" w-full h-[250px] bg-no-repeat bg-full bg-center bg-fixed" />

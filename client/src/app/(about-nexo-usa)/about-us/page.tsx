@@ -17,7 +17,7 @@ const tableData = [
 
 const AboutUs = () => {
   return (
-    <div className="pb-10"> {/* Added bottom padding */}
+    <div className="mt-10"> {/* Added bottom padding */}
       {/* Banner Section */}
       <div>
         <Image

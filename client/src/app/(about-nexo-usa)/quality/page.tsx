@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Quality = () => {
   return (
-    <div>
+    <div className="mt-10">
       {/* Banner Section */}
       <div>
         <Image

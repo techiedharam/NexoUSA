@@ -1,10 +1,10 @@
 import Image from "next/image";
 const Warehouse = () => {
   return (
-    <div> {/* Main container */}
+    <div className="mt-10"> {/* Main container */}
       <div> {/* banner image */}
         <Image
-          src="/assets/img/warehosueCoverImg.jpg"
+          src="/images/banners/warehosueCoverImg.jpg"
           alt=""
           width={1920}
           height={250}
